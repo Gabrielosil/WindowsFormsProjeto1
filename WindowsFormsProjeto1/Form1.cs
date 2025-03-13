@@ -16,7 +16,7 @@ namespace WindowsFormsProjeto1
             //Remove os pontos e traços da máscara,
             //para ler somente o
             //valor que o usuário digitou
-            
+             
             if (!ValidaCpf(txtCPF.Text))
                 MessageBox.Show("CPF Inválido");
            
